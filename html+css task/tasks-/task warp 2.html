@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #2-flexbox</title>
+    <style>
+
+
+.flex-container{
+
+    border:solid 10px rgb(239, 110, 5);
+    font-size: 100px  ;
+    color: aliceblue;
+    
+}
+
+.block-width > div {
+width: 100%;
+height: 100%;
+}
+
+.row3 > div {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.block-width{
+    display: flex;
+    flex-flow: row; 
+}
+
+.flex-container>div{
+
+    text-align: center;
+
+}
+.one{
+    background-color: aquamarine;
+
+}
+.two {
+    background-color: aqua;
+
+}
+.three{
+    background-color: rgb(182, 130, 230);
+ 
+}
+.four{
+   background-color: rgb(48, 64, 78);
+
+}
+.five{
+    background-color: rgb(218, 201, 19);
+  
+}
+
+.six{
+    background-color: orange;
+
+}
+.seven{
+    background-color: rgb(215, 45, 45);
+
+}
+.eight{
+    background-color: rgb(144, 144, 144);
+ 
+}
+.nine{
+    background-color: rgb(13, 181, 94);
+
+}
+.ten{
+    background-color: rgb(4, 142, 96);
+}
+        </style>
+</head>
+<body >
+<div class="flex-container">
+    <div class="row1 block-width">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+
+    </div>
+
+    <div class="row2 block-width">
+        <div class="five">5</div>
+        <div class="six">6</div>
+        <div class="seven">7</div>
+        <div class="eight">8</div>    
+    </div>
+
+
+    <div class="row3 block-width">
+        <div class="nine">9</div>
+        <div class="ten">10</div>      
+    </div>
+
+   
+   
+
+</div>
+
+</body>
